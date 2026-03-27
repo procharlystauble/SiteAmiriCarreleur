@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMIRI CARRELEUR | Artisan Carreleur & Rénovation de Salle de Bain à Strasbourg</title>
+    <meta name="description" content="AMIRI CARRELEUR, votre expert carreleur à Strasbourg (67100). Rénovation complète de salle de bain, pose de carrelage, conseils sur-mesure. Devis gratuit. Ouvert 24h/24.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f4f6f8',
+                            100: '#e4ebf1',
+                            500: '#64748b',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        },
+                        accent: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-brand-800 antialiased bg-brand-50 selection:bg-accent-500 selection:text-white">
+
+    <!-- Header Sticky -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100 transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <div class="w-10 h-10 bg-brand-900 text-white rounded-lg flex items-center justify-center shadow-lg">
+                        <i class="fa-solid fa-layer-group text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-heading font-bold text-xl md:text-2xl text-brand-900 leading-tight">AMIRI CARRELEUR</h1>
+                        <p class="text-xs text-brand-500 font-medium tracking-wide uppercase">Artisan Expert - Strasbourg</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-gray-600 hover:text-accent-600 font-medium transition-colors">Nos Services</a>
+                    <a href="#pourquoi-nous" class="text-gray-600 hover:text-accent-600 font-medium transition-colors">Pourquoi Nous</a>
+                    <a href="#avis" class="text-gray-600 hover:text-accent-600 font-medium transition-colors">Avis Clients</a>
+                </div>
+                <div class="flex items-center">
+                    <a href="tel:0605532973" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-semibold rounded-full text-white bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+                        <i class="fa-solid fa-phone mr-2"></i> 06 05 53 29 73
+                    </a>
+                    <a href="tel:0605532973" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-accent-500 text-white shadow-md">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-brand-900 h-[85vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 w-full h-full">
+            <img src="https://loremflickr.com/1920/1080/tiles,bathroom" alt="Rénovation de salle de bain à Strasbourg par un artisan carreleur" class="w-full h-full object-cover object-center" />
+            <div class="absolute inset-0 bg-gradient-to-b from-brand-900/80 via-brand-900/70 to-brand-900/90 mix-blend-multiply"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-accent-500/20 text-accent-400 border border-accent-500/30 text-sm font-semibold tracking-wider mb-6 uppercase">
+                Disponible 24h/24 & 7j/7 sur Strasbourg
+            </span>
+            <h2 class="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+                L'Excellence du Carrelage & de la <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-accent-600">Rénovation de Salle de Bain</span>
+            </h2>
+            
+            <div class="max-w-3xl mx-auto mb-10">
+                <p class="text-lg md:text-xl text-gray-200 font-light leading-relaxed">
+                    Un vieux carrelage fissuré ? Une salle de bain démodée qui a besoin d'un nouveau souffle ? Ne prenez pas le risque de confier vos travaux à n'importe qui. <br><br>
+                    <strong class="text-white font-medium">AMIRI CARRELEUR</strong> vous accompagne de A à Z. Du conseil sur le choix des matériaux jusqu'à la pose millimétrée, nous transformons vos espaces avec un niveau de finition irréprochable.
+                </p>
+            </div>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="tel:0605532973" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-base font-bold rounded-full text-brand-900 bg-white hover:bg-gray-100 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+                    <i class="fa-solid fa-bolt text-accent-500 mr-2"></i> Intervention Immédiate
+                </a>
+                <a href="#services" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-base font-bold rounded-full text-white bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1 border border-transparent">
+                    <i class="fa-regular fa-clipboard mr-2"></i> Découvrir nos services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-accent-600 font-semibold tracking-wide uppercase text-sm mb-2">Notre Expertise</h2>
+                <h3 class="font-heading text-3xl md:text-4xl font-bold text-brand-900 mb-4">Nos Services de Carrelage à Strasbourg</h3>
+                <p class="text-gray-600 text-lg">Nous prenons en charge l'intégralité de votre projet pour vous garantir un résultat esthétique, durable et sans mauvaise surprise.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://loremflickr.com/800/600/bathroom" alt="Rénovation complète salle de bain" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-900/80 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <i class="fa-solid fa-bath text-2xl mb-2 text-accent-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <h4 class="font-heading text-xl font-bold text-brand-900 mb-3">Rénovation de Salle de Bain</h4>
+                        <p class="text-gray-600 mb-6 flex-1">Transformation complète de votre espace. Démolition, préparation des supports, étanchéité et pose minutieuse pour une salle de bain moderne et fonctionnelle.</p>
+                        <a href="tel:0605532973" class="text-accent-600 font-semibold inline-flex items-center group-hover:text-accent-700">
+                            Obtenir un devis <i class="fa-solid fa-arrow-right ml-2 transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://loremflickr.com/800/600/floortiles" alt="Pose de carrelage sol et mur" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-900/80 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <i class="fa-solid fa-border-all text-2xl mb-2 text-accent-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <h4 class="font-heading text-xl font-bold text-brand-900 mb-3">Pose de Carrelage Sol & Mur</h4>
+                        <p class="text-gray-600 mb-6 flex-1">Grands formats, faïence, mosaïque ou imitation parquet. Une pose réalisée dans les règles de l'art pour sublimer vos intérieurs (cuisine, salon, couloir).</p>
+                        <a href="tel:0605532973" class="text-accent-600 font-semibold inline-flex items-center group-hover:text-accent-700">
+                            Prendre rendez-vous <i class="fa-solid fa-arrow-right ml-2 transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://loremflickr.com/800/600/interiordesign" alt="Conseil en aménagement et choix des matériaux" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-900/80 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <i class="fa-solid fa-compass text-2xl mb-2 text-accent-400"></i>
+                        </div>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <h4 class="font-heading text-xl font-bold text-brand-900 mb-3">Conseil Design & Matériaux</h4>
+                        <p class="text-gray-600 mb-6 flex-1">Un projet réussi commence par de bons choix. Profitez de notre accompagnement (et de nos designers partenaires) pour concevoir l'aménagement idéal.</p>
+                        <a href="tel:0605532973" class="text-accent-600 font-semibold inline-flex items-center group-hover:text-accent-700">
+                            Parler à un expert <i class="fa-solid fa-arrow-right ml-2 transition-transform group-hover:translate-x-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="pourquoi-nous" class="py-24 bg-brand-50 border-y border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <div class="lg:w-1/2">
+                    <h2 class="text-accent-600 font-semibold tracking-wide uppercase text-sm mb-2">Engagements Artisan</h2>
+                    <h3 class="font-heading text-3xl md:text-4xl font-bold text-brand-900 mb-6">Pourquoi choisir AMIRI CARRELEUR pour vos travaux à Strasbourg ?</h3>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        Parce que votre maison mérite ce qu'il y a de mieux, nous mettons un point d'honneur à allier réactivité, conseil esthétique et précision technique. Ne cherchez plus le carreleur idéal, vous l'avez trouvé.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-12 h-12 rounded-full bg-accent-100 flex items-center justify-center">
+                                    <i class="fa-solid fa-clock text-accent-600 text-xl"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-brand-900">Disponibilité Exceptionnelle (24h/24)</h4>
+                                <p class="mt-1 text-gray-600">Nous sommes à votre écoute 7 jours sur 7. Une urgence ou un projet rapide ? Nous intervenons avec flexibilité sur tout le secteur de Strasbourg.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-12 h-12 rounded-full bg-accent-100 flex items-center justify-center">
+                                    <i class="fa-solid fa-pen-ruler text-accent-600 text-xl"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-brand-900">Accompagnement Sur-Mesure</h4>
+                                <p class="mt-1 text-gray-600">Comme en témoignent nos clients, notre équipe vous écoute et vous conseille sur l'aménagement et le choix des meilleurs matériaux.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-12 h-12 rounded-full bg-accent-100 flex items-center justify-center">
+                                    <i class="fa-solid fa-star text-accent-600 text-xl"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-brand-900">Finitions Impeccables (Noté 5/5)</h4>
+                                <p class="mt-1 text-gray-600">Le sens du détail est notre marque de fabrique. Des coupes parfaites, des joints réguliers et un chantier laissé propre à notre départ.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-10">
+                        <a href="tel:0605532973" class="inline-flex items-center justify-center px-8 py-4 text-base font-bold rounded-full text-white bg-brand-900 hover:bg-brand-800 shadow-xl transition-all">
+                            Demander un devis gratuit
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2 relative">
+                    <div class="absolute -inset-4 bg-gradient-to-r from-accent-400 to-accent-600 rounded-2xl transform rotate-3 opacity-30 blur-lg"></div>
+                    <img src="https://loremflickr.com/800/1000/tiler" alt="Artisan carreleur au travail" class="relative rounded-2xl shadow-2xl object-cover w-full h-[600px] border-4 border-white">
+                    
+                    <!-- Floating Badge -->
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl flex items-center gap-4">
+                        <div class="text-4xl text-accent-500 font-bold">5.0</div>
+                        <div>
+                            <div class="flex text-accent-400 mb-1">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="text-sm font-semibold text-brand-900">Avis Google</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="avis" class="py-24 bg-brand-900 text-white relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                <defs><pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M0 40L40 0H20L0 20M40 40V20L20 40" stroke="white" stroke-width="2" fill="none"/></pattern></defs>
+                <rect width="100%" height="100%" fill="url(#grid-pattern)"/>
+            </svg>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <i class="fa-solid fa-quote-right text-4xl text-accent-500 mb-6 opacity-50"></i>
+                <h2 class="font-heading text-3xl md:text-4xl font-bold mb-4">Ils nous font confiance à Strasbourg</h2>
+                <p class="text-gray-400 text-lg">Découvrez l'expérience de nos clients suite à notre intervention.</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <!-- Review Card (From JSON) -->
+                <div class="bg-brand-800/80 backdrop-blur-sm p-8 md:p-10 rounded-3xl border border-brand-700 shadow-2xl relative">
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="flex items-center gap-4">
+                            <img src="https://lh3.googleusercontent.com/a/ACg8ocJOz3fDjSe1Yk2WOiaOFXMZAiNCGhNTBg0WcDAeLl53B23YEA=s128-c0x00000000-cc-rp-mo" alt="Photo de SAMIRA faizy" class="w-14 h-14 rounded-full border-2 border-accent-500 object-cover">
+                            <div>
+                                <h4 class="font-bold text-lg">SAMIRA faizy</h4>
+                                <p class="text-sm text-gray-400">Il y a 3 mois</p>
+                            </div>
+                        </div>
+                        <div class="flex text-accent-400 text-lg">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-200 text-lg md:text-xl leading-relaxed italic">
+                        "Excellente expérience avec cette entreprise pour la rénovation complète de ma salle de bain à Bischheim. Dès le premier rendez-vous, M,Amiri carreleur et la designeuse ont été à l’écoute et m’ont très bien conseillée sur l’aménagement et le choix des matériaux. Le suivi a été sérieux et les artisans très professionnels. Le rendu final est magnifique, je suis vraiment ravie du résultat. Je recommande sans hésiter !"
+                    </p>
+                    
+                    <div class="mt-8 pt-6 border-t border-brand-700/50 text-center">
+                        <a href="https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pSWWNGSk5la1EzUVZaaVJWcGpWSFZhVmtwTlNYYxAB!2m1!1s0x4796c9c751dac4e5:0x9ed0d5b853ab2b04" target="_blank" rel="noopener noreferrer" class="text-accent-500 hover:text-accent-400 font-medium inline-flex items-center">
+                            Voir l'avis sur Google Maps <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <h3 class="text-2xl font-bold mb-6">Prêt à transformer votre intérieur ?</h3>
+                <a href="tel:0605532973" class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-full text-brand-900 bg-gradient-to-r from-accent-400 to-accent-500 hover:from-accent-500 hover:to-accent-600 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+                    <i class="fa-solid fa-phone mr-2"></i> Appeler le 06 05 53 29 73
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0a0f18] text-gray-400 py-16 border-t border-brand-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Brand Info -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-brand-800 text-white rounded-lg flex items-center justify-center border border-brand-700">
+                            <i class="fa-solid fa-layer-group text-xl"></i>
+                        </div>
+                        <h2 class="font-heading font-bold text-2xl text-white">AMIRI CARRELEUR</h2>
+                    </div>
+                    <p class="leading-relaxed">
+                        Votre partenaire de confiance pour la pose de carrelage et la rénovation complète de salle de bain à Strasbourg et ses environs. Travail soigné, conseil expert et finitions parfaites.
+                    </p>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-heading font-bold text-lg text-white mb-6 uppercase tracking-wider">Contact & Accès</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-location-dot mt-1.5 mr-3 text-accent-500 w-5 text-center"></i>
+                            <span>11 Rue de Provence,<br>67100 Strasbourg, France</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fa-solid fa-phone mr-3 text-accent-500 w-5 text-center"></i>
+                            <a href="tel:0605532973" class="hover:text-white transition-colors text-lg font-medium text-gray-200">06 05 53 29 73</a>
+                        </li>
+                        <li class="flex items-center mt-4">
+                            <a href="tel:0605532973" class="inline-flex items-center justify-center px-4 py-2 border border-accent-500 text-accent-500 hover:bg-accent-500 hover:text-white rounded-lg transition-colors text-sm font-semibold">
+                                Demander un devis
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hours -->
+                <div>
+                    <h3 class="font-heading font-bold text-lg text-white mb-6 uppercase tracking-wider">Horaires d'ouverture</h3>
+                    <div class="bg-brand-900/50 rounded-xl p-5 border border-brand-800">
+                        <div class="flex items-center gap-2 mb-4 text-green-400 font-semibold">
+                            <div class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
+                            Actuellement Ouvert (24h/24)
+                        </div>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex justify-between border-b border-brand-800 pb-2"><span>Lundi</span> <span class="text-white">Ouvert 24h/24</span></li>
+                            <li class="flex justify-between border-b border-brand-800 pb-2"><span>Mardi</span> <span class="text-white">Ouvert 24h/24</span></li>
+                            <li class="flex justify-between border-b border-brand-800 pb-2"><span>Mercredi</span> <span class="text-white">Ouvert 24h/24</span></li>
+                            <li class="flex justify-between border-b border-brand-800 pb-2"><span>Jeudi</span> <span class="text-white">Ouvert 24h/24</span></li>
+                            <li class="flex justify-between border-b border-brand-800 pb-2"><span>Vendredi</span> <span class="text-white">Ouvert 24h/24</span></li>
+                            <li class="flex justify-between border-b border-brand-800 pb-2"><span>Samedi</span> <span class="text-white">Ouvert 24h/24</span></li>
+                            <li class="flex justify-between"><span>Dimanche</span> <span class="text-white">Ouvert 24h/24</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 pt-8 border-t border-brand-900 text-center text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2024 AMIRI CARRELEUR. Tous droits réservés.</p>
+                <p class="mt-2 md:mt-0">Artisan Carreleur Expert à Strasbourg</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
